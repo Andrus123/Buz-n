@@ -14,9 +14,11 @@ namespace Buzón
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
-			
-			// TODO: Implement Functionality Here
+			Buzón b1 = new Buzón();
+			Buzón b2 = new Buzón();
+			b1.Mostrar();
+			b2.leer();
+			b1.Mostrar("01/06/16");
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
