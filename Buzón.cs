@@ -97,6 +97,14 @@ namespace Buzón
 				Console.WriteLine("No hay Mensajes Recibidos");
 		}
 		//Contar los mensajes recibidos cuyo origen sea x
-		
+		public void Contar(string x)
+		{	int c = 0;
+			for (int i = 0; i < getNumero_Mensajes(); i++)
+			{
+				if (x == Mensaje[i,0]){
+					c++;
+				}
+			}
+		} Console.WriteLine("Hay "+ c + " mensajes provenientes de : " + x);
 	}
 }

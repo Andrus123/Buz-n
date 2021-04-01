@@ -19,6 +19,8 @@ namespace Buzón
 			b1.Mostrar();
 			b2.leer();
 			b1.Mostrar("01/06/16");
+			b1.Contar("Argentina");
+			b2.Contar("Perú");
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
