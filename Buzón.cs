@@ -105,6 +105,19 @@ namespace Buzón
 					c++;
 				}
 			}
-		} Console.WriteLine("Hay "+ c + " mensajes provenientes de : " + x);
+			Console.WriteLine("Hay "+ c + " mensajes provenientes de : " + x);
+		}
+		//Sean 2 Buzones mostrar el que tenga la mayor cantidad de mensajes
+		public void Mostrar(Buzón b1, Buzón b2)
+		{
+			if (b1.getNumero_Mensajes() > b2.getNumero_Mensajes())
+			{
+				b1.Mostrar();
+			}
+			if (b1.getNumero_Mensajes() < b2.getNumero_Mensajes())
+			{
+				b2.Mostrar();
+			}
+		}
 	}
 }
