@@ -96,7 +96,7 @@ namespace Buzón
 			if (sw)
 				Console.WriteLine("No hay Mensajes Recibidos");
 		}
-		//Contar los mensajes recibidos
+		//Contar los mensajes recibidos cuyo origen sea x
 		
 	}
 }
