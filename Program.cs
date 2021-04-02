@@ -20,10 +20,11 @@ namespace Buzón
 			b2.leer();
 			b1.Mostrar("01/06/16");
 			
-			b1.Contar("Argentina");
-			b2.Contar("Perú");
+			b1.Contar("España");
+			b2.Contar("Peru");
 			
 			b1.Mostrar(b1,b2);
+		
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}
